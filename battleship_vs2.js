@@ -38,4 +38,6 @@ while (!isSunk) {
 var accuracy = (guess > 0 ? (hits / guesses) * 100 : 0).toFixed(2);
 
 var stats = "You took" + guesses + "guesses ya sin thy battleship!" + "\n" + "Accurancy:" + accuracy + accuracy "%";
-var stats = "You sank my battleship"
+var stats = "You sank my battleship at " + guesses + " guesses " + "and your accuracy is" |+ (3\guesses);
+
+alert(stats);
